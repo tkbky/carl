@@ -1,9 +1,9 @@
-NAME := carl-go
+NAME := carl
 VERSION := v0.0.1
 REVISION := $(shell git rev-parse --short HEAD)
 
 SRCS    := $(shell find . -type f -name '*.go')
-LDFLAGS := -ldflags="-s -w -X \"github.com/tkbky/carl-go/version.Version=$(VERSION)\" -X \"github.com/tkbky/carl-go/version.Revision=$(REVISION)\" -extldflags -static"
+LDFLAGS := -ldflags="-s -w -X \"github.com/tkbky/carl/version.Version=$(VERSION)\" -X \"github.com/tkbky/carl/version.Revision=$(REVISION)\" -extldflags -static"
 
 DIST_DIRS := find * -type d -exec
 
