@@ -1,0 +1,6 @@
+hash: f11de62b2e221e60732d5c2ddcc9390698b7ce64ffbfd8e2458ef4575f77aeb4
+updated: 2017-04-15T12:41:43.761494774+08:00
+imports:
+- name: github.com/sabhiram/go-colorize
+  version: e1128a35ae9b46d94b465198d359ca4af91beb94
+testImports: []
